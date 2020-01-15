@@ -1,1 +1,1 @@
-# [radi.ma](https://radi.ma)
+# <https://radi.ma>
