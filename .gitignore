@@ -1,7 +1,6 @@
 # These files and folders will be ignored and not pushed to github
 # NetBeans
 build/
-dist/
 .idea/
 **/.cache/*
 ._*/
