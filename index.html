@@ -1,18 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Radi Trading</title>
-  <link rel="icon" type="image/png" href="img/favicon/favicon-196.png" sizes="196x196" />
-  <link rel="icon" type="image/png" href="favicon-96.png" sizes="96x96" />
-  <link rel="icon" type="image/png" href="img/favicon/favicon-32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="img/favicon/favicon-16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="img/favicon/favicon-128.png" sizes="128x128" />
+    <title>Radi Trading</title>
+    <meta charset="utf-8">
+    <meta content="Radi Trading Website" property="og:title"/>
+    <meta name="description" content="Radi Trading Website" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="favicon-96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-128.png" sizes="128x128" />
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="dist/font-awesome/css/font-awesome.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
 </head>
+
 <body>
-  <img src="img/logo.png">
-  <h1>Welcome to Radi Trading (RT)</h1>
-  <p>Under construction... coming soon.</p>
-  <br />
-  <img src="img/Under-Construction.jpg">
+    <div class="loader"></div>
+    <header id="header">
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light" id="main-navigation">
+            <div class="container">
+                <a class="navbar-brand scroll-trigger" href="#" id="header-logo">
+                    <img src="img/logo.png" class="img-fluid" width="200"
+                        alt="Radi Trading Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item active">
+                            <a class="nav-link text-dark scroll-trigger" href="#home">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark scroll-trigger" href="#features">Features</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark scroll-trigger" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark scroll-trigger" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item mr-md-3">
+                            <a class="nav-link text-dark scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main" role="main">
+        <section class="main-banner text-center" id="home">
+            <h1 class="display-2">Welcome to Scrolling Nav</h1>
+            <p class="lead pt-3">Landing Page Template Made With Bootstrap 4.</p>
+        </section>
+        <section id="features" class="py-5">
+            <div class="section-content">
+                <div class="container text-center">
+                    <h2>What we do</h2>
+                    <hr>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui accusantium commodi non quod mollitia animi,
+                        totam quia labore ex est ut delectus consectetur explicabo eveniet maiores, cumque aut repudiandae.
+                        Natus!
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card-deck">
+                                <div class="card">
+                                    <img src="img/chalkboard.jpg" class="img-fluid" alt="A chalkboard">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Strategy &amp; Planning</h4>
+                                        <h6 class="card-subtitle">Support card subtitle</h6>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quod porro reiciendis
+                                            quo, optio dolor incidunt qui, voluptatem officiis dignissimos, reprehenderit
+                                            possimus. Excepturi earum in repellat doloribus officia sed blanditiis.</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">learn more</button>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="img/working.jpg" class="img-fluid" alt="Working on a laptop">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Creative &amp; Design</h4>
+                                        <h6 class="card-subtitle">Support card subtitle</h6>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempore, necessitatibus,
+                                            inventore quaerat laudantium odit rerum fugit ipsa, libero sint ullam consequatur
+                                            accusamus totam optio facere repudiandae quasi nisi iusto!</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">learn more</button>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="img/programming.jpg" class="img-fluid" alt="fingers typing on a keyboard">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Programming &amp; Technical</h4>
+                                        <h6 class="card-subtitle">Support card subtitle</h6>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempore, necessitatibus,
+                                            inventore quaerat laudantium odit rerum fugit ipsa, libero sint ullam consequatur
+                                            accusamus totam optio facere repudiandae quasi nisi iusto!</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">learn more</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="about">
+            <div class="container text-left py-5">
+                <h2>About this page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia dolore repudiandae placeat? Minima
+                    nihil, possimus inventore ut, libero dolore ab ipsa laboriosam reiciendis nemo perspiciatis, consectetur
+                    esse officia impedit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, autem praesentium. Delectus eligendi
+                    neque enim atque? Repellendus non aliquid omnis culpa. Perferendis, nesciunt! Vero blanditiis, deserunt
+                    assumenda aperiam nesciunt rem.</p>
+                <ul>
+                    <li>Beautiful Gradient Background Landing Page.</li>
+                    <li>Clickable nav links that smooth scroll to page sections.</li>
+                    <li>Responsive behavior when clicking nav links.</li>
+                    <li>Bootstrap 4 scrollspy feature, which highlights which section of the page you're on in the navbar.</li>
+                    <li>Minimal custom CSS so you are free to explore your own unique design options.</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+        <section id="services">
+            <div class="container text-left py-5">
+                <h2>Services We Offer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia dolore repudiandae placeat? Minima
+                    nihil, possimus inventore ut, libero dolore ab ipsa laboriosam reiciendis nemo perspiciatis, consectetur
+                    esse officia impedit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, autem praesentium. Delectus eligendi
+                    neque enim atque? Repellendus non aliquid omnis culpa. Perferendis, nesciunt! Vero blanditiis, deserunt
+                    assumenda aperiam nesciunt rem.</p>
+            </div>
+        </section>
+        <hr>
+        <section id="contact">
+            <div class="container text-left py-5">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia dolore repudiandae placeat? Minima
+                    nihil, possimus inventore ut, libero dolore ab ipsa laboriosam reiciendis nemo perspiciatis, consectetur
+                    esse officia impedit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, autem praesentium. Delectus eligendi
+                    neque enim atque? Repellendus non aliquid omnis culpa. Perferendis, nesciunt! Vero blanditiis, deserunt
+                    assumenda aperiam nesciunt rem.</p>
+            </div>
+        </section>
+
+        <a href="#" class="btn btn-primary scrollUp">
+            <i class="fa fa-arrow-circle-o-up"></i>
+        </a>
+    </main>
+    <!-- Footer -->
+    <footer id="footer">
+        <p class="copyright">
+            <a target="_blank" title="Radi Trading" href="http://www.orbitthemes.com">Radi Trading</a>
+            &copy; <span id="currentYear"></span> All Rights Reserved.
+        </p>
+        <!--
+        <div class="social">
+            <a traget="_blank" href="https://facebook.com/orbitthemes" title="facebook">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a traget="_blank" href="https://twitter.com/orbitthemes" title="twitter">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a traget="_blank" href="https://plus.google.com/+orbitthemes" title="Google+" target="_blank">
+                <i class="fa fa-google-plus"></i>
+            </a>
+            <a traget="_blank" href="https://github.com/orbitthemes" title="github" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+            <a traget="_blank" href="https://www.behance.net/orbitthemes" title="Behance" target="_blank">
+                <i class="fa fa-behance"></i>
+            </a>
+            <a traget="_blank" href="https://dribbble.com/orbitthemes" title="Dribbble" target="_blank">
+                <i class="fa fa-dribbble"></i>
+            </a>
+            <a traget="_blank" href="https://www.pinterest.com/orbitThemes/" title="Pinterest" target="_blank">
+                <i class="fa fa-pinterest"></i>
+            </a>
+            <a traget="_blank" href="https://www.reddit.com/user/orbitthemes" title="Reddit" target="_blank">
+                <i class="fa fa-reddit"></i>
+            </a>
+            <a traget="_blank" href="https://orbitthemes.com/blog/" title="RSS" target="_blank">
+                <i class="fa fa-rss"></i>
+            </a>
+        </div>
+        -->
+    </footer>
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="dist/jquery/jquery.min.js"></script>
+    <script src="dist/popper/popper.min.js" integrity=""></script>
+    <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
+
 </html>
