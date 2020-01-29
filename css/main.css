@@ -8564,7 +8564,7 @@ Text Domain: orbitthemes.com
 #main .main-banner {
   padding: 10rem 0;
   background: whitesmoke;
-  color: #fff;
+  /*color: #fff; */
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, whitesmoke,lightgoldenrodyellow);
   /* Chrome 10-25, Safari 5.1-6 */
