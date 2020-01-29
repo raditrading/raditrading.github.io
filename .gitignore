@@ -1,19 +1,4 @@
 # These files and folders will be ignored and not pushed to github
-# NetBeans
-build/
-.idea/
-**/.cache/*
-._*/
-node_modules/
-private/
-old/
-oldExamples/
-ignore/
-DataGenerator.xlsx
-*-compiled.js
-*-compiled.js.map
-*.js.map
-
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
