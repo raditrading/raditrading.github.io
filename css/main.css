@@ -402,9 +402,9 @@ h6, .h6 {
 }
 
 .display-2 {
-  font-size: 5.5rem;
-  font-weight: 300;
-  line-height: 1.2;
+  font-size: 4rem;
+  /*font-weight: 300;
+  line-height: 1.2; */
 }
 
 .display-3 {
