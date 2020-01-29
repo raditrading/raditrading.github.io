@@ -19,12 +19,12 @@
 </head>
 
 <body>
-    <div class="loader"></div>
+    <!--<div class="loader"></div> -->
     <header id="header">
         <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light" id="main-navigation">
             <div class="container">
                 <a class="navbar-brand scroll-trigger" href="#" id="header-logo">
-                    <img src="img/logo.png" class="img-fluid" width="98" height="60"
+                    <img src="img/logo.png" class="img-fluid" width="82" height="50"
                         alt="Radi Trading Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -34,19 +34,21 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item active">
-                            <a class="nav-link text-dark scroll-trigger" href="#home">Home
+                            <a class="nav-link text-dark scroll-trigger" href="#home">Accueil
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark scroll-trigger" href="#features">Features</a>
+                            <a class="nav-link text-dark scroll-trigger" href="#about">Notre Société</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark scroll-trigger" href="#about">About</a>
+                            <a class="nav-link text-dark scroll-trigger" href="#produits">Nos Produits</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark scroll-trigger" href="#services">Services</a>
+                            <a class="nav-link text-dark scroll-trigger" href="#services">Nos Services</a>
                         </li>
                         <li class="nav-item mr-md-3">
                             <a class="nav-link text-dark scroll-trigger" href="#contact">Contact</a>
@@ -58,52 +60,87 @@
     </header>
     <main id="main" role="main">
         <section class="main-banner text-center" id="home">
-            <h1 class="display-2">Welcome to Scrolling Nav</h1>
-            <p class="lead pt-3">Landing Page Template Made With Bootstrap 4.</p>
+            <h1 class="display-2">Bienvenue chez Radi Trading</h1>
+            <p class="lead pt-3">Nous sommes une entreprise professionnelle spécialisée dans l'importation,
+                la distribution et l'installation de produits verriers pour la construction à travers le Maroc.
+            </p>
+            <img src="img/logo.png" class="img-fluid" alt="Radi Trading Logo">
         </section>
-        <section id="features" class="py-5">
+
+        <section id="about">
+            <div class="container text-left py-5">
+                <h2>Qui sommes nous</h2>
+                <p>Radi Trading est une entreprise spécialisée dans les produits en verre au service de l'architecture contemporaine.
+                    Nous procédons à l'import et la distribution de produits verriers à destination du bâtiment,
+                    de la décoration et l'aménagement d'intérieur. La gamme des vitrages est segmentée selon
+                    le niveau de performance et de leur utilisation.
+                    Cela de l'isolation thermique et phonique à la protection contre l'effraction et la vandalisme.
+                    <br>
+                    Nous offerons une gamme variée des produits verriers de qualité pour une variété d'applications:
+                </p>
+
+                <ul>
+                    <li>Simple vitrage ordinaire</li>
+                    <li>Vitrage feuilleté non acoustique</li>
+                    <li>Vitrage feuilleté acoustique</li>
+                    <li>Double vitrage ordinaire</li>
+                    <li>Double vitrage feuilleté</li>
+                    <li>Double vitrage feuilleté acoustique</li>
+                    <li>Triple vitrage ordinaire</li>
+                    <li>Triple vitrage feuilleté</li>
+                    <li>Triple vitrage feuilleté acoustique</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="produits" class="py-5">
             <div class="section-content">
                 <div class="container text-center">
-                    <h2>What we do</h2>
+                    <h2>Nos produits</h2>
                     <hr>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui accusantium commodi non quod mollitia animi,
-                        totam quia labore ex est ut delectus consectetur explicabo eveniet maiores, cumque aut repudiandae.
-                        Natus!
+                    <p class="lead">Nos offrons une gamme exhaustive du verre à destination du bâtiment,
+                        de la décoration et l'aménagement d'intérieur.
                     </p>
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="card-deck">
                                 <div class="card">
-                                    <img src="img/chalkboard.jpg" class="img-fluid" alt="A chalkboard">
+                                    <img src="img/products/clear-glass.jpg" class="img-fluid" alt="Le verre clair">
                                     <div class="card-body">
-                                        <h4 class="card-title">Strategy &amp; Planning</h4>
-                                        <h6 class="card-subtitle">Support card subtitle</h6>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quod porro reiciendis
-                                            quo, optio dolor incidunt qui, voluptatem officiis dignissimos, reprehenderit
-                                            possimus. Excepturi earum in repellat doloribus officia sed blanditiis.</p>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">learn more</button>
+                                        <h4 class="card-title">Le verre clair</h4>
+                                        <!--h6 class="card-subtitle">Support card subtitle</h6-->
+                                        <p class="card-text">Le verre clair est le vitrage de base qui se caractérise
+                                            par sa transparence et sa simplicité. Il offer un bon éclairage naturel
+                                            des espaces intérieurs.
+                                        </p>
+                                        <!--button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">learn more</button-->
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <img src="img/working.jpg" class="img-fluid" alt="Working on a laptop">
+                                    <img src="img/products/reflective-glass.jpg" class="img-fluid" alt="Verre réfléchissant">
                                     <div class="card-body">
-                                        <h4 class="card-title">Creative &amp; Design</h4>
-                                        <h6 class="card-subtitle">Support card subtitle</h6>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempore, necessitatibus,
-                                            inventore quaerat laudantium odit rerum fugit ipsa, libero sint ullam consequatur
-                                            accusamus totam optio facere repudiandae quasi nisi iusto!</p>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">learn more</button>
+                                        <h4 class="card-title">Verre réfléchissant</h4>
+                                        <!--h6 class="card-subtitle">Support card subtitle</h6-->
+                                        <p class="card-text">Est un verre réfléchissant qui répond à la double exigence des architectes,
+                                            à savoir le fonctionnel et l’esthétique, convenant parfaitement pour les utilisations de contrôle solaire
+                                            et réduction de l’éblouissement. <br>
+                                            Il est destiné à la plupart des types de vitrages de façade dans les bâtiments résidentiels,
+                                            bureaux, commerce, bâtiments scolaires, et bâtiments industriels.
+                                        </p>
+                                        <!--button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">learn more</button-->
                                     </div>
                                 </div>
+
                                 <div class="card">
-                                    <img src="img/programming.jpg" class="img-fluid" alt="fingers typing on a keyboard">
+                                    <img src="img/products/verre-decore.jpg" class="img-fluid" alt="Le verre décoré">
                                     <div class="card-body">
-                                        <h4 class="card-title">Programming &amp; Technical</h4>
-                                        <h6 class="card-subtitle">Support card subtitle</h6>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempore, necessitatibus,
-                                            inventore quaerat laudantium odit rerum fugit ipsa, libero sint ullam consequatur
-                                            accusamus totam optio facere repudiandae quasi nisi iusto!</p>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">learn more</button>
+                                        <h4 class="card-title">Verre décoré</h4>
+                                        <!--h6 class="card-subtitle">Support card subtitle</h6-->
+                                        <p class="card-text">Le verre décoré de couleurs translucides et transparentes pour décoration
+                                            de votre bâtiment ou espace de bureau moderne.
+                                            Il vient dans une variété des formes et des dessins multicolores, dans le but de créer un effet visuel plus audacieux.
+                                        </p>
+                                        <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">learn more</button>-->
                                     </div>
                                 </div>
                             </div>
@@ -113,47 +150,25 @@
             </div>
         </section>
         <hr>
-        <section id="about">
-            <div class="container text-left py-5">
-                <h2>About this page</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia dolore repudiandae placeat? Minima
-                    nihil, possimus inventore ut, libero dolore ab ipsa laboriosam reiciendis nemo perspiciatis, consectetur
-                    esse officia impedit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, autem praesentium. Delectus eligendi
-                    neque enim atque? Repellendus non aliquid omnis culpa. Perferendis, nesciunt! Vero blanditiis, deserunt
-                    assumenda aperiam nesciunt rem.</p>
-                <ul>
-                    <li>Beautiful Gradient Background Landing Page.</li>
-                    <li>Clickable nav links that smooth scroll to page sections.</li>
-                    <li>Responsive behavior when clicking nav links.</li>
-                    <li>Bootstrap 4 scrollspy feature, which highlights which section of the page you're on in the navbar.</li>
-                    <li>Minimal custom CSS so you are free to explore your own unique design options.</li>
-                </ul>
-            </div>
-        </section>
 
-        <hr>
         <section id="services">
             <div class="container text-left py-5">
-                <h2>Services We Offer</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia dolore repudiandae placeat? Minima
-                    nihil, possimus inventore ut, libero dolore ab ipsa laboriosam reiciendis nemo perspiciatis, consectetur
-                    esse officia impedit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, autem praesentium. Delectus eligendi
-                    neque enim atque? Repellendus non aliquid omnis culpa. Perferendis, nesciunt! Vero blanditiis, deserunt
-                    assumenda aperiam nesciunt rem.</p>
+                <h2>Nos services</h2>
+                <ul>
+                    <li>Import: import de tous les produits verriers de partout dans le monde.</li>
+                    <li>Distribution: distribution de tous les produits verriers dans tout le Maroc où nos produits de qualité et
+                        notre logistique efficiente ont fait leur preuve.</li>
+                    <li>Transformation du verre: découpe et l’usinage du verre pour le bâtiment et l’aménagement avec une créativité sans limites.</li>
+                </ul>
             </div>
         </section>
         <hr>
         <section id="contact">
             <div class="container text-left py-5">
-                <h2>Contact Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat mollitia dolore repudiandae placeat? Minima
-                    nihil, possimus inventore ut, libero dolore ab ipsa laboriosam reiciendis nemo perspiciatis, consectetur
-                    esse officia impedit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, autem praesentium. Delectus eligendi
-                    neque enim atque? Repellendus non aliquid omnis culpa. Perferendis, nesciunt! Vero blanditiis, deserunt
-                    assumenda aperiam nesciunt rem.</p>
+                <h2>Contact</h2>
+                <div>🏠 329 Rue 6, Quartier Namae, Bensouda, Fès, Maroc</div>
+                <div>📱+212-6888-2138</div>
+                <div><a href="mailto:radi@rt.ma?Subject=Enquiry" target="_top">📧 radi@rt.ma</a></div>
             </div>
         </section>
 
@@ -203,7 +218,7 @@
     <script src="dist/jquery/jquery.min.js"></script>
     <script src="dist/popper/popper.min.js" integrity=""></script>
     <script src="dist/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

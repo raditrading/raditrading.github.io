@@ -1,7 +1,7 @@
 $(window).on("load", function() {
-  $(".loader")
+  /*$(".loader")
     .delay(1000)
-    .fadeOut("slow");
+    .fadeOut("slow"); */
 });
 
 $(document).ready(function() {
